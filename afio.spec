@@ -21,8 +21,8 @@ same as GNU tar - ie you can specify the backup file as
 
 %description -l pl
 Afio jest programem u¿ywanym przez skrypty tworz±ce kopie zapasowe.
-Potrafi tworzyæ kompresowane archiwa, które s± bardziej bezpieczne niz
-kopie tworzone za pomoc± programów tar lub cpio poniewa¿ umie poradziæ
+Potrafi tworzyæ kompresowane archiwa, które s± bardziej bezpieczne ni¿
+kopie tworzone za pomoc± programów tar lub cpio poniewa¿ potrafi poradziæ
 sobie z uszkodzonymi danymi. Mo¿na tym programem tworzyæ tak¿e
 wielowolumenowe kopie zapasowe.
 
