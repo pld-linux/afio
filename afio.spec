@@ -1,13 +1,13 @@
 Summary:	Program which makes cpio-format archives
 Summary(pl):	Pakiet zawiera program do tworzenia archiwów w formacie cpio
 Name:		afio
-Version:	2.4.5
-Release:	8
+Version:	2.4.6
+Release:	1
 License:	Freeware
 Group:		Applications/Archiving
 Group(de):	Applikationen/Archivierung
 Group(pl):	Aplikacje/Archiwizacja
-Source0:	ftp://sunsite.unc.edu/pub/Linux/system/Backup/%{name}-%{version}.tgz
+Source0:	http://www.ibiblio.org/pub/linux/system/backup/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -32,7 +32,7 @@ zdalne urz±dzenie kopii zapasowej tak jak w programie GNU tar,
 np.: "user@machine:/dev/tape".
 
 %prep
-%setup  -q
+%setup  -q -n %{name}.%{version}
 
 %build
 %{__make} clean
