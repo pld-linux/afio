@@ -1,12 +1,12 @@
 Summary:	Program which makes cpio-format archives
 Summary(pl):	Pakiet zawiera program do tworzenia archiwów w formacie cpio
 Name:		afio
-Version:	2.4.7
-Release:	3
+Version:	2.5
+Release:	1
 License:	Artistic
 Group:		Applications/Archiving
 Source0:	http://www.ibiblio.org/pub/linux/system/backup/%{name}-%{version}.tgz
-# Source0-md5:	28fd6daa7805ee2263879ff1b9c96a9e
+# Source0-md5:	8c6665e0f875dcd8e1bdb18644b59688
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
