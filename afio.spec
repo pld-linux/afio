@@ -20,6 +20,17 @@ This version has been patched to handle remote tape drives exactly the
 same as GNU tar - ie you can specify the backup file as
 "user@machine:/dev/tape".
 
+%description -l pl
+Afio jest programem u¿ywanym przez skrypty tworz±ce kopie zapasowe.
+Potrafi tworzyæ kompresowane archiwa, które s± bardziej bezpieczne niz
+kopie tworzone za pomoc± programów tar lub cpio poniewa¿ umie poradziæ
+sobie z uszkodzonymi danymi. Mo¿na tym programem tworzyæ tak¿e
+wielowolumenowe kopie zapasowe.
+
+Program ten zosta³ poprawiony, by mo¿na by³o wyspecyfikowaæ
+zdalne urz±dzenie kopii zapasowej tak jak w programie GNU tar,
+np.: "user@machine:/dev/tape".
+
 %prep
 %setup  -q
 
