@@ -37,7 +37,7 @@ np.: "user@machine:/dev/tape".
 %build
 %{__make} clean
 %{__make} CFLAGS1="-Wformat -fomit-frame-pointer \
-	%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}"
+	%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
