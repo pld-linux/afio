@@ -2,7 +2,7 @@ Summary:	Program which makes cpio-format archives
 Summary(pl):	Pakiet zawiera program do tworzenia archiwów w formacie cpio
 Name:		afio
 Version:	2.4.7
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Applications/Archiving
 Source0:	http://www.ibiblio.org/pub/linux/system/backup/%{name}-%{version}.tgz
@@ -40,11 +40,11 @@ urz±dzenie kopii zapasowej tak jak w programie GNU tar, np.:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_examplesdir}/%{name}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_examplesdir}/%{name}-%{version}}
 
 install afio $RPM_BUILD_ROOT%{_bindir}
 install afio.1* $RPM_BUILD_ROOT%{_mandir}/man1
-mv -f script* $RPM_BUILD_ROOT%{_examplesdir}/%{name}
+mv -f script* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -54,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc afio.lsm HISTORY SCRIPTS README PORTING
 %attr(755,root,root) %{_bindir}/afio
 %{_mandir}/man1/afio.*
-%{_examplesdir}/%{name}
+%{_examplesdir}/%{name}-%{version}
