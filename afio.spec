@@ -5,8 +5,6 @@ Version:	2.4.7
 Release:	1
 License:	Freeware
 Group:		Applications/Archiving
-Group(de):	Applikationen/Archivierung
-Group(pl):	Aplikacje/Archiwizacja
 Source0:	http://www.ibiblio.org/pub/linux/system/backup/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
