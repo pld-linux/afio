@@ -45,14 +45,12 @@ install afio $RPM_BUILD_ROOT%{_bindir}
 install afio.1* $RPM_BUILD_ROOT%{_mandir}/man1
 mv -f script* $RPM_BUILD_ROOT%{_examplesdir}/%{name}
 
-gzip -9nf afio.lsm HISTORY SCRIPTS README PORTING
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc afio.lsm HISTORY SCRIPTS README PORTING
 %attr(755,root,root) %{_bindir}/afio
 %{_mandir}/man1/afio.*
 %{_examplesdir}/%{name}
