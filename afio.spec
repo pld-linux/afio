@@ -6,6 +6,7 @@ Release:	1
 License:	Artistic
 Group:		Applications/Archiving
 Source0:	http://www.ibiblio.org/pub/linux/system/backup/%{name}-%{version}.tgz
+# Source0-md5:	28fd6daa7805ee2263879ff1b9c96a9e
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
