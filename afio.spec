@@ -27,9 +27,9 @@ kopie tworzone za pomoc± programów tar lub cpio poniewa¿ umie poradziæ
 sobie z uszkodzonymi danymi. Mo¿na tym programem tworzyæ tak¿e
 wielowolumenowe kopie zapasowe.
 
-Program ten zosta³ poprawiony, by mo¿na by³o wyspecyfikowaæ
-zdalne urz±dzenie kopii zapasowej tak jak w programie GNU tar,
-np.: "user@machine:/dev/tape".
+Program ten zosta³ poprawiony, by mo¿na by³o wyspecyfikowaæ zdalne
+urz±dzenie kopii zapasowej tak jak w programie GNU tar, np.:
+"user@machine:/dev/tape".
 
 %prep
 %setup  -q -n %{name}.%{version}
