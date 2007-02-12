@@ -1,5 +1,5 @@
 Summary:	Program which makes cpio-format archives
-Summary(pl):	Pakiet zawiera program do tworzenia archiwów w formacie cpio
+Summary(pl.UTF-8):   Pakiet zawiera program do tworzenia archiwÃ³w w formacie cpio
 Name:		afio
 Version:	2.5
 Release:	3
@@ -19,15 +19,15 @@ This version has been patched to handle remote tape drives exactly the
 same as GNU tar - ie you can specify the backup file as
 "user@machine:/dev/tape".
 
-%description -l pl
-Afio jest programem u¿ywanym przez skrypty tworz±ce kopie zapasowe.
-Potrafi tworzyæ kompresowane archiwa, które s± bardziej bezpieczne ni¿
-kopie tworzone za pomoc± programów tar lub cpio poniewa¿ potrafi
-poradziæ sobie z uszkodzonymi danymi. Mo¿na tym programem tworzyæ
-tak¿e wielowolumenowe kopie zapasowe.
+%description -l pl.UTF-8
+Afio jest programem uÅ¼ywanym przez skrypty tworzÄ…ce kopie zapasowe.
+Potrafi tworzyÄ‡ kompresowane archiwa, ktÃ³re sÄ… bardziej bezpieczne niÅ¼
+kopie tworzone za pomocÄ… programÃ³w tar lub cpio poniewaÅ¼ potrafi
+poradziÄ‡ sobie z uszkodzonymi danymi. MoÅ¼na tym programem tworzyÄ‡
+takÅ¼e wielowolumenowe kopie zapasowe.
 
-Program ten zosta³ poprawiony, by mo¿na by³o wyspecyfikowaæ zdalne
-urz±dzenie kopii zapasowej tak jak w programie GNU tar, np.:
+Program ten zostaÅ‚ poprawiony, by moÅ¼na byÅ‚o wyspecyfikowaÄ‡ zdalne
+urzÄ…dzenie kopii zapasowej tak jak w programie GNU tar, np.:
 "user@machine:/dev/tape".
 
 %prep
