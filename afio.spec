@@ -1,5 +1,5 @@
 Summary:	Program which makes cpio-format archives
-Summary(pl.UTF-8):   Pakiet zawiera program do tworzenia archiwów w formacie cpio
+Summary(pl.UTF-8):	Pakiet zawiera program do tworzenia archiwów w formacie cpio
 Name:		afio
 Version:	2.5
 Release:	3
